@@ -17,7 +17,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f99dbf9a-7dae-4223-a837-4dafe747d71d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -165,7 +165,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1602443362093</updated>
-      <workItem from="1602443363153" duration="2087000" />
+      <workItem from="1602443363153" duration="3107000" />
     </task>
     <task id="LOCAL-00001" summary="init 2 laravel 5.8">
       <created>1602444054931</created>
@@ -195,7 +195,21 @@
       <option name="project" value="LOCAL" />
       <updated>1602445361554</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="routes">
+      <created>1602445492295</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1602445492295</updated>
+    </task>
+    <task id="LOCAL-00006" summary="views">
+      <created>1602445697573</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1602445697573</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -229,7 +243,9 @@
     <MESSAGE value="init 2 laravel 5.8" />
     <MESSAGE value="app" />
     <MESSAGE value="database" />
-    <option name="LAST_COMMIT_MESSAGE" value="database" />
+    <MESSAGE value="routes" />
+    <MESSAGE value="views" />
+    <option name="LAST_COMMIT_MESSAGE" value="views" />
   </component>
   <component name="WindowStateProjectService">
     <state width="274" height="482" key="Diff.GoToChangePopup" timestamp="1602444485748">
@@ -240,10 +256,10 @@
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
     <state x="538" y="108" width="1077" height="872" key="DiffContextDialog/0.0.1920.1044@0.0.1920.1044" timestamp="1602445450094" />
-    <state x="1093" y="103" key="RollbackChangesDialog" timestamp="1602445378406">
+    <state x="1093" y="103" key="RollbackChangesDialog" timestamp="1602445713455">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state x="1093" y="103" key="RollbackChangesDialog/0.0.1920.1044@0.0.1920.1044" timestamp="1602445378406" />
+    <state x="1093" y="103" key="RollbackChangesDialog/0.0.1920.1044@0.0.1920.1044" timestamp="1602445713455" />
     <state x="567" y="164" key="SettingsEditor" timestamp="1602443450462">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
