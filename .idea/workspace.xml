@@ -17,11 +17,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f99dbf9a-7dae-4223-a837-4dafe747d71d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/laravel_58.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/laravel_58.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_09_27_163516_create_blog_categories_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_09_27_163516_create_blog_categories_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_09_27_163543_create_blog_posts_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_09_27_163543_create_blog_posts_table.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -180,7 +178,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1602443362093</updated>
-      <workItem from="1602443363153" duration="3816000" />
+      <workItem from="1602443363153" duration="4201000" />
     </task>
     <task id="LOCAL-00001" summary="init 2 laravel 5.8">
       <created>1602444054931</created>
@@ -231,7 +229,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602446508587</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="ide helper, laravel debugbar">
+      <created>1602448162085</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1602448162085</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -267,7 +272,8 @@
     <MESSAGE value="database" />
     <MESSAGE value="routes" />
     <MESSAGE value="views" />
-    <option name="LAST_COMMIT_MESSAGE" value="views" />
+    <MESSAGE value="ide helper, laravel debugbar" />
+    <option name="LAST_COMMIT_MESSAGE" value="ide helper, laravel debugbar" />
   </component>
   <component name="WindowStateProjectService">
     <state width="274" height="482" key="Diff.GoToChangePopup" timestamp="1602444485748">
