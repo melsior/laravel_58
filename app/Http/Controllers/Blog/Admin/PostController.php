@@ -99,8 +99,24 @@ class PostController extends BaseController
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $id)
+    public function update(BlogPostUpdateRequest $request, $id)
     {
+        $item = $this->blogPostRepository->getEdit($id);
+
+        if (empty($item)) {
+            return back()
+                ->withErrors(['msg' => "Запись id=[{$id}] не найдена"])
+                ->withInput();
+        }
+
+        $data = $request->all();
+
+        if (empty(data['slug'])) {
+            $data['slug'] = \Str::slug(data['title']);
+        }
+        if (empty ($item->published_at) && $data['is_published']) {
+
+        }
         dd(__METHOD__, $request->all(), $id);
     }
 
