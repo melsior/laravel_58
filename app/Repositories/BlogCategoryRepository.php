@@ -28,7 +28,7 @@ class BlogCategoryRepository extends CoreRepository
     /**
      * Получить список категорий для вывода в выпадающем списке.
      */
-    public function getForComboBox()
+    public function  getForComboBox()
     {
         $colomns = implode(', ', [
             'id',
