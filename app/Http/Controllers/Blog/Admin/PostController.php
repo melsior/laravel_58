@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers\Blog\Admin;
 
+use App\Http\Requests\BlogPostUpdateRequest;
+use Carbon\Carbon;
 use Faker\Provider\Base;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
@@ -111,11 +113,23 @@ class PostController extends BaseController
 
         $data = $request->all();
 
-        if (empty(data['slug'])) {
-            $data['slug'] = \Str::slug(data['title']);
+        if (empty($data['slug'])) {
+            $data['slug'] = \Str::slug($data['title']);
         }
         if (empty ($item->published_at) && $data['is_published']) {
+            $data['published_at'] = Carbon::now();
+        }
 
+        $result = $item->update($data);
+
+        if ($result) {
+            return redirect()
+                ->route('blog.admin.posts.edit', $item->id)
+                ->with(['success' => 'Успешно сохранено']);
+        } else {
+            return back()
+                ->withErrors(['msg' => 'Ошибка сохранения'])
+                ->withInput();
         }
         dd(__METHOD__, $request->all(), $id);
     }
