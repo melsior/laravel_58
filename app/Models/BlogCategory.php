@@ -38,5 +38,14 @@ class BlogCategory extends Model
     /**
      * @var mixed
      */
+    public function getTitleAttribute($valueFromObject)
+    {
+        return mb_strtoupper($valueFromObject);
+    }
+
+    public function setTitleAttribute($incomingValue)
+    {
+        $this->attributes['title'] = mb_strtolower($incomingValue);
+    }
     private $parent_id;
 }
